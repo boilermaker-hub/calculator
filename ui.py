@@ -18,7 +18,6 @@ class View(QWidget):
         self.le1.setFocus(True)
         self.le1.selectAll()
 
-
         self.le2=QLineEdit('0',self)
         self.le2.setAlignment(QtCore.Qt.AlignRight)
         
