@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 #ch 6.3.3 ui.py
+=======
+#ch 6.3.1 ui.py
+>>>>>>> 8b332f28b3f7e2f9abc5be92f5b874994bb9beaf
 
 from PyQt5.QtWidgets import (QApplication, QWidget, QPushButton, QVBoxLayout, QMessageBox, QPlainTextEdit, QHBoxLayout,
                              QLineEdit, QComboBox)
@@ -17,7 +21,11 @@ class View(QWidget):
         self.le1.setAlignment(QtCore.Qt.AlignRight)
         self.le1.setFocus(True)
         self.le1.selectAll()
+<<<<<<< HEAD
 
+=======
+        
+>>>>>>> 8b332f28b3f7e2f9abc5be92f5b874994bb9beaf
         self.le2=QLineEdit('0',self)
         self.le2.setAlignment(QtCore.Qt.AlignRight)
         
