@@ -1,4 +1,4 @@
-#ch 6.3.3 ui.py
+#ch 7.7.2 ui.py
 
 from PyQt5.QtWidgets import (QApplication, QWidget, QPushButton, QVBoxLayout, QMessageBox, QPlainTextEdit, QHBoxLayout,
                              QLineEdit, QComboBox)
@@ -21,7 +21,8 @@ class View(QWidget):
         self.le2.setAlignment(QtCore.Qt.AlignRight)
         
         self.cb=QComboBox(self)
-        self.cb.addItems(['+','-','*','/','^'])
+        # self.cb.addItems(['+','-','*','/','^','%'])
+        self.cb.addItems(['+','-','*','/'])
 
         self.te1=QPlainTextEdit()
         self.te1.setReadOnly(True)
